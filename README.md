@@ -21,21 +21,15 @@ Explained predictions with SHAP (computed on scaled features)
 # Results
 
 5-fold cross-validation (training set)
+<img width="523" height="203" alt="image" src="https://github.com/user-attachments/assets/08193d61-30a5-4c19-a490-0eed188c441e" />
 
-Model               	Accuracy	    Precision     	Recall       ROC-AUC
-Logistic Regression	  0.974	        0.977	          0.953	       0.996
-XGBoost	              0.971	        0.976	          0.947	       0.992
-SVM	                  0.971	        0.977         	0.947	       0.995
-Random Forest	        0.965	        0.964	          0.941      	 0.989
 
 # Tuning: best C = 1 (the default), CV recall 0.953.
 Final test set (114 samples: 72 benign, 42 malignant)
 
-Metric	                  Score
-Accuracy                 	0.96
-Precision (malignant)	    0.97
-Recall (malignant)      	0.93
-ROC-AUC	                  0.996
+<img width="637" height="753" alt="image" src="https://github.com/user-attachments/assets/9119de7f-8742-48bf-a208-5ebfb9707adc" />
+<img width="573" height="564" alt="image" src="https://github.com/user-attachments/assets/d15925cd-524a-4da5-ae4d-59435721c904" />
+
 Errors	3 false negatives, 1 false positive
 
 # Key findings
